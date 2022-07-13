@@ -25,7 +25,7 @@ st.write("""
 #Shown are the stock closing price and volume of Google!
 """)
 
-df = pd.read_excel("C:/Users/bachi/Downloads/pop.xls")
+df = pd.read_excel("pop.xls")
 
 print(df.dtypes)
 #df['year']=df['year'].astype(int)
